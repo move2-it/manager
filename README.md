@@ -32,7 +32,9 @@ Ctrl + Shift + F10
 ### Command line run test:  
 `
 mvn spring-boot:run
-`
+`  
+
+### Run test:
 
 Click Top menu Add Configuration ->  
 JUnit ->  
