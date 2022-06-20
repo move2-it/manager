@@ -1,4 +1,4 @@
-package pl.it.move2.manager;
+package com.it.move2.manager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
