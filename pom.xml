@@ -8,7 +8,7 @@
 		<version>2.7.0</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.it.move2</groupId>
+	<groupId>it.move2</groupId>
 	<artifactId>manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>manager</name>
