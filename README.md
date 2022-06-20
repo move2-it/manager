@@ -1,11 +1,8 @@
 # manager
 
-### Technology:
+### Technologies:
     -Java version 11
     -Spring Boot
-    -Junit 5
-    -Spring Security 
-    -Eureka Server Netflix
 
 command line run project:  
 `   
@@ -22,17 +19,15 @@ Change name which one you prefer click ok
 
 You can run project click Run or shortcut Shift + F10
 
-### Way 2 
+### Way 2
 
-Come in ManagerApplication click run on left strap or use  
+Come in ManagerApplication click run on left strap or use
 Ctrl + Shift + F10
 
-
-
-### Command line run test:  
+### Command line run test:
 `
-mvn spring-boot:run
-`  
+mvn test
+`
 
 ### Run test:
 

@@ -1,4 +1,4 @@
-package pl.move2.it.manager;
+package pl.it.move2.manager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
