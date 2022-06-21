@@ -3,7 +3,7 @@ package it.move2.manager
 
 import spock.lang.Specification
 
-class ExampleCalculateTest extends Specification {
+class ExampleCalculateTestSpec extends Specification {
 
     def "Example Calculate Test"() {
         expect:
