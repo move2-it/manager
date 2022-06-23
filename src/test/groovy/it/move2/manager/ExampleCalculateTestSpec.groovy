@@ -1,6 +1,5 @@
 package it.move2.manager
 
-
 import spock.lang.Specification
 
 class ExampleCalculateTestSpec extends Specification {
