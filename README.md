@@ -28,3 +28,12 @@ Ctrl + Shift + F10
 `
 mvn test
 `
+
+### Run test:
+
+Click Top menu Add Configuration ->  
+JUnit ->  
+Choose Main class on test ManagerApplication ->  
+Change name which one you prefer click ok  
+
+You can run test click Run or shortcut Shift + F10
