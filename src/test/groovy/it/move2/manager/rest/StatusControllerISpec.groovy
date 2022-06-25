@@ -1,14 +1,13 @@
 package it.move2.manager.rest
 
 import it.move2.manager.ManagerApplication
-import org.hamcrest.CoreMatchers
-import org.hamcrest.Matcher
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.setup.MockMvcBuilders
 import spock.lang.Specification
+import spock.lang.Unroll
 
-import static org.hamcrest.Matchers.containsString
+import static org.hamcrest.Matchers.not
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
@@ -29,16 +28,13 @@ class StatusControllerISpec extends Specification {
                 .andExpect(content().string("OK"))
     }
 
-    def "Should not return other response"() {
+    def "Should fail on given condition"() {
         expect:
         mvc.perform(get("/health-check"))
-                .andExpect(status().isOk())
-                .andExpect(content().string(doesNotContainString("STH")))
-    }
+                .andExpect(condition)
 
-    Matcher<String> doesNotContainString(String s) {
-        return CoreMatchers.not(containsString(s))
+        where:
+        condition << [status().is(not(404)), content().string(not("STH"))]
     }
-
 
 }
