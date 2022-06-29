@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>it.move2</groupId>
 	<artifactId>manager</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>manager</name>
 	<description>Manager it's microservice responsible for managing fetch job offers</description>
 	<properties>
@@ -62,7 +62,7 @@
 			<plugin>
 				<groupId>org.codehaus.gmavenplus</groupId>
 				<artifactId>gmavenplus-plugin</artifactId>
-				<version>1.12.0</version>
+				<version>1.5</version>
 				<configuration>
 					<testSources>
 						<testSource>
@@ -74,7 +74,7 @@
 					<execution>
 						<goals>
 							<goal>addTestSources</goal>
-							<goal>compileTests</goal>
+							<goal>testCompile</goal>
 						</goals>
 					</execution>
 				</executions>
@@ -82,7 +82,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.1</version>
+				<version>3.8.1</version>
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
