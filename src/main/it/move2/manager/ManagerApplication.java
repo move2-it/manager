@@ -8,6 +8,7 @@ public class ManagerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ManagerApplication.class, args);
+		System.out.println(System.getenv("EXAMPLE_ENVIRONMENT_KEY"));
 	}
 
 }

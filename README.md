@@ -1,30 +1,21 @@
 # manager
 
-### Technologies:
-    -Java version 11
-    -Spring Boot
+## Technologies
 
-command line run project:  
+- Java 11
+- Spring Boot
+- Docker
+
+## Development
+
+### Run project
+
 `   
 mvn spring-boot:run
-`     
+`
 
-### Run project:
+### Run tests
 
-### Way 1  
-Click Top menu Add Configuration ->  
-Application ->  
-Choose Main class ManagerApplication ->  
-Change name which one you prefer click ok
-
-You can run project click Run or shortcut Shift + F10
-
-### Way 2
-
-Come in ManagerApplication click run on left strap or use
-Ctrl + Shift + F10
-
-### Command line run test:
 `
 mvn test
 `

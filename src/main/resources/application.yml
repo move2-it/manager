@@ -1,2 +1,4 @@
 server:
-  port : 8082
+  port: 8080
+
+EXAMPLE_PROPERTY_KEY: ${EXAMPLE_ENVIRONMENT_KEY}
